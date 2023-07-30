@@ -1,0 +1,13 @@
+import random
+var = random.randint(1, 15)
+print(var)
+
+#変数varが3の倍数の場合はFizz、5の倍数はBuzz、3と5の倍数はFizzBuzz、それ以外は変数var
+if var % 3== 0 and var % 5 ==0:
+    print("FizzBunzz")
+elif var % 3 == 0:
+    print("Fizz")
+elif var % 5 == 0:
+    print("Buzz")
+else:
+    print(var)
