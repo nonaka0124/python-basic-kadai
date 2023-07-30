@@ -1,0 +1,11 @@
+#台形の面積公式(上辺＋下辺)＊高さ÷2  答え：75
+
+#上辺
+u_side = 10
+#下辺
+l_side = 20
+#高さ
+height = 5
+
+area = (u_side + l_side) * height / 2
+print(f"{area}cm2です")
