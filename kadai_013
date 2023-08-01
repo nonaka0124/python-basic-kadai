@@ -1,0 +1,9 @@
+#消費税10％
+tax = 1.1
+
+#商品の金額と消費税の関数を定義
+def tax_price(price):
+  total = price * tax
+  print(f"税込{total}円です")
+
+tax_price(1000)
