@@ -1,9 +1,15 @@
-#消費税10％
+purchased = True
+
 tax = 1.1
+price = 1000
+total = price * tax
 
-#商品の金額と消費税の関数を定義
-def tax_price(price):
-  total = price * tax
+def is_purchased():
+  if(purchased):
+    return True
+  else:
+    return False
+
+
+if(is_purchased() == True):
   print(f"税込{total}円です")
-
-tax_price(1000)
